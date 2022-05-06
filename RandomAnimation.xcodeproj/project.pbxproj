@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9A616C16282524CE0051F1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A616C15282524CE0051F1A3 /* AppDelegate.swift */; };
 		9A616C18282524CE0051F1A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A616C17282524CE0051F1A3 /* SceneDelegate.swift */; };
-		9A616C1A282524CE0051F1A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A616C19282524CE0051F1A3 /* ViewController.swift */; };
+		9A616C1A282524CE0051F1A3 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A616C19282524CE0051F1A3 /* AnimationViewController.swift */; };
 		9A616C1D282524CE0051F1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A616C1B282524CE0051F1A3 /* Main.storyboard */; };
 		9A616C1F282524CF0051F1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A616C1E282524CF0051F1A3 /* Assets.xcassets */; };
 		9A616C22282524CF0051F1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A616C20282524CF0051F1A3 /* LaunchScreen.storyboard */; };
+		9A616C372825313B0051F1A3 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A616C362825313B0051F1A3 /* Animation.swift */; };
+		9A616C3C282532570051F1A3 /* AnimationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A616C3B282532570051F1A3 /* AnimationDataManager.swift */; };
+		C7D54E572F589D085C62A680 /* Pods_RandomAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152918D329E7301FCE67C9E4 /* Pods_RandomAnimation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		152918D329E7301FCE67C9E4 /* Pods_RandomAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFCE987C2F080D17328C60C /* Pods-RandomAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomAnimation.release.xcconfig"; path = "Target Support Files/Pods-RandomAnimation/Pods-RandomAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		9A616C12282524CE0051F1A3 /* RandomAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A616C15282524CE0051F1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A616C17282524CE0051F1A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A616C19282524CE0051F1A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A616C19282524CE0051F1A3 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		9A616C1C282524CE0051F1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A616C1E282524CF0051F1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A616C21282524CF0051F1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A616C23282524CF0051F1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A616C362825313B0051F1A3 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		9A616C3B282532570051F1A3 /* AnimationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDataManager.swift; sourceTree = "<group>"; };
+		AFA0CA2867957398E5CF56EE /* Pods-RandomAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomAnimation.debug.xcconfig"; path = "Target Support Files/Pods-RandomAnimation/Pods-RandomAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D54E572F589D085C62A680 /* Pods_RandomAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				9A616C14282524CE0051F1A3 /* RandomAnimation */,
 				9A616C13282524CE0051F1A3 /* Products */,
+				D359A2C033C1322CC61FB31B /* Pods */,
+				F0332643E54A2F1738664EC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +67,82 @@
 		9A616C14282524CE0051F1A3 /* RandomAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				9A616C15282524CE0051F1A3 /* AppDelegate.swift */,
-				9A616C17282524CE0051F1A3 /* SceneDelegate.swift */,
-				9A616C19282524CE0051F1A3 /* ViewController.swift */,
-				9A616C1B282524CE0051F1A3 /* Main.storyboard */,
-				9A616C1E282524CF0051F1A3 /* Assets.xcassets */,
-				9A616C20282524CF0051F1A3 /* LaunchScreen.storyboard */,
-				9A616C23282524CF0051F1A3 /* Info.plist */,
+				9A616C2D2825250D0051F1A3 /* Controller */,
+				9A616C3A282532300051F1A3 /* Service */,
+				9A616C352825311A0051F1A3 /* Model */,
+				9A616C2C282525030051F1A3 /* View */,
+				9A616C2A282524F40051F1A3 /* App */,
+				9A616C2E2825251C0051F1A3 /* Resources */,
 			);
 			path = RandomAnimation;
+			sourceTree = "<group>";
+		};
+		9A616C2A282524F40051F1A3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9A616C15282524CE0051F1A3 /* AppDelegate.swift */,
+				9A616C17282524CE0051F1A3 /* SceneDelegate.swift */,
+				9A616C23282524CF0051F1A3 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9A616C2C282525030051F1A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A616C1B282524CE0051F1A3 /* Main.storyboard */,
+				9A616C20282524CF0051F1A3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A616C2D2825250D0051F1A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A616C19282524CE0051F1A3 /* AnimationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A616C2E2825251C0051F1A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A616C1E282524CF0051F1A3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A616C352825311A0051F1A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A616C362825313B0051F1A3 /* Animation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A616C3A282532300051F1A3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9A616C3B282532570051F1A3 /* AnimationDataManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D359A2C033C1322CC61FB31B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFA0CA2867957398E5CF56EE /* Pods-RandomAnimation.debug.xcconfig */,
+				8BFCE987C2F080D17328C60C /* Pods-RandomAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0332643E54A2F1738664EC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152918D329E7301FCE67C9E4 /* Pods_RandomAnimation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A616C26282524CF0051F1A3 /* Build configuration list for PBXNativeTarget "RandomAnimation" */;
 			buildPhases = (
+				8E5FC2CD71B661F59C9E8AD9 /* [CP] Check Pods Manifest.lock */,
 				9A616C0E282524CE0051F1A3 /* Sources */,
 				9A616C0F282524CE0051F1A3 /* Frameworks */,
 				9A616C10282524CE0051F1A3 /* Resources */,
+				09905F183C1DC63D4BD0727F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +212,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09905F183C1DC63D4BD0727F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomAnimation/Pods-RandomAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomAnimation/Pods-RandomAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RandomAnimation/Pods-RandomAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E5FC2CD71B661F59C9E8AD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A616C0E282524CE0051F1A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A616C1A282524CE0051F1A3 /* ViewController.swift in Sources */,
+				9A616C3C282532570051F1A3 /* AnimationDataManager.swift in Sources */,
+				9A616C1A282524CE0051F1A3 /* AnimationViewController.swift in Sources */,
 				9A616C16282524CE0051F1A3 /* AppDelegate.swift in Sources */,
+				9A616C372825313B0051F1A3 /* Animation.swift in Sources */,
 				9A616C18282524CE0051F1A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +407,13 @@
 		};
 		9A616C27282524CF0051F1A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA0CA2867957398E5CF56EE /* Pods-RandomAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4MMKWZWX48;
-				INFOPLIST_FILE = RandomAnimation/Info.plist;
+				INFOPLIST_FILE = RandomAnimation/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +427,13 @@
 		};
 		9A616C28282524CF0051F1A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BFCE987C2F080D17328C60C /* Pods-RandomAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4MMKWZWX48;
-				INFOPLIST_FILE = RandomAnimation/Info.plist;
+				INFOPLIST_FILE = RandomAnimation/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
